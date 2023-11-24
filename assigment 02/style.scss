@@ -1,0 +1,50 @@
+// Variables
+$primary-color: #007bff; // Change this to your preferred primary color
+
+// Navbar
+.navbar {
+  background-color: $primary-color;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+// Dropdown
+.dropdown-menu {
+  background-color: $primary-color;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+// Image Slideshow
+#slideshow {
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Online Library Management System heading
+.container h2 {
+  color: $primary-color;
+}
+
+// Book Details Section
+#bookDetails {
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
